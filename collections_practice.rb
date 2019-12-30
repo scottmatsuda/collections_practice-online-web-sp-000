@@ -31,7 +31,7 @@ end
 
 def kesha_maker(strings)
   kesha = strings.each do |string|
-    string[2] == "$"
+    string[2] = "$"
   end
   kesha
 end
