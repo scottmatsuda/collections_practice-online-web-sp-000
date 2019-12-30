@@ -49,3 +49,8 @@ end
 def sum_array(nums)
   nums.inject { |sum, n| sum + n }
 end
+
+def add_s(words)
+  words.each_with_index.collect do |element, index|
+    element[index] + "s"
+end
