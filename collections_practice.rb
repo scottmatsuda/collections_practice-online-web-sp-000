@@ -37,7 +37,11 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-  strings.collect do |string|
-    string[0] == "a" || string[0] == "A"
+  a_strings = []
+  strings.each do |string|
+    if string[0] == "a" 
+      a_strings << string
+    end
   end
+  return a_strings
 end
