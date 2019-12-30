@@ -51,7 +51,10 @@ def sum_array(nums)
 end
 
 def add_s(words)
-  words.each_with_index.collect do |element, index|
+  non_s = words[1]
+  add_s = words.each_with_index.collect do |element, index|
     element + "s" if index != 1
   end
+  add_s[1] = non_s
+  return add_s
 end
