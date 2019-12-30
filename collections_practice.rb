@@ -38,7 +38,7 @@ end
 
 def find_a(strings)
   a_strings = []
-  strings.collect do |string|
+  strings.each do |string|
     if string.start_with?("a") 
       a_strings << string
     end
