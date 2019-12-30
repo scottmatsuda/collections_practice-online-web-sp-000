@@ -38,6 +38,8 @@ end
 
 def find_a(strings)
   strings.each do |string|
-    string.start_with?("a") 
+    if string.start_with?("a") 
+      a_string << string
+    end
   end
 end
