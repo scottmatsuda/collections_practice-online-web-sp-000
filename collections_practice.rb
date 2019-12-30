@@ -45,4 +45,3 @@ def find_a(strings)
   end
   return a_strings
 end
-end
