@@ -45,3 +45,8 @@ def find_a(strings)
   end
   return a_strings
 end
+
+def sum_array(nums)
+  nums.inject 
+  
+end
